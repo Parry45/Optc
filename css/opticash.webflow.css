@@ -103,6 +103,7 @@
 
 .nav-button:hover {
   background-image: linear-gradient(#a6d93d, #a6d93d);
+  color: #000;
 }
 
 .nav-button.islarge {
