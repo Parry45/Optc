@@ -79,7 +79,7 @@ gtag('config', 'G-G1CM0C3M9X');
 
 <body class="body">
 <div class="site-loader" style="display:none">
-	<div><img class="loader-logo" src="./images/opticash-icon.svg" alt=""></div>
+	<div><img class="loader-logo" src="#" alt=""></div>
 </div>
 <div id="site-content">
 <!---START: Header-->
@@ -96,10 +96,10 @@ gtag('config', 'G-G1CM0C3M9X');
           <a href="#token" aria-current="page" class="navbar_link w-nav-link w--current" onClick="setupChart()">Our Token</a>
           <a href="#faq" class="navbar_link w-nav-link">FAQs</a>
           <a href="#footer" class="navbar_link w-nav-link">Contact</a>
-          <a href="#" class="navbar_link w-nav-link">Blog</a>
+          <a href="https://www.opticash.io/blog/" class="navbar_link w-nav-link">Blog</a>
           <div class="navbar_button-wrapper mobile">
-            <a href="#" class="nav-button-secondary w-button">Sign Up</a>
-            <a href="#" class="nav-button w-button">Log In</a>
+            <a href="https://app.opticash.io/auth/sign-up" class="nav-button-secondary w-button">Sign Up</a>
+            <a href="https://app.opticash.io/auth/sign-in" class="nav-button w-button">Log In</a>
           </div>
           <a data-w-id="49b650ed-7329-42eb-cee8-e1c264af78ca" href="#" class="consent_close-button-copy w-inline-block">
             <div class="icon-embed-xsmall-3 w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -261,108 +261,7 @@ gtag('config', 'G-G1CM0C3M9X');
 			</div>
 		</div>
 	</div>
-
-	<div id="roadmap" class="road-map page-section">
-		<div class="container">
-			<div class="top">
-				<h2 class="text-block" >Road map</h2>
-				<p class="text-size-large" >We have a clear development roadmap to surpass our big goals <br> and with every passing day, we are working hard to achieve it.
-				</p>
-			</div>
-			<div class="timeline">
-				<ul class="list">
-					<li class="box1">
-						<div class="box">
-							<div class="time">(Aug-22 - Oct 22)</div>
-							<div class="q">Q3</div>
-							<ul>
-								<li>Idea Conceptualized</li>
-								<li>Team Building</li>
-							</ul>
-						</div>
-					</li>
-					<li class="box1">
-						<div class="box">
-							<div class="time">(Oct 22 - Dec 22)</div>
-							<div class="q">Q4</div>
-							<ul>
-								<li>Concept Paper</li>
-								<li>Create OPTICASH Smart Contract</li>
-								<li>Token Testnet Launch</li>
-								<li>Smart Contract Audit - Security</li>
-								<li>Token Production Launch </li>
-								<li>Website Launch </li>
-							</ul>
-						</div>
-					</li>
-					<li class="box3">
-						<div class="box">
-							<div class="time">(Jan 23 - Mar 23)</div>
-							<div class="q">Q1</div>
-							<ul>
-								<li>Private Sale/Seed Round</li>
-								<li>Marketing activities phase 1</li>
-								<li>White paper Launch </li>
-								<li>Community Building (Telegram, Twitter, Medium, Instagram)</li>
-								<li>Create Buzz for PreSale</li>
-								<li>Events/Promotions</li>
-							</ul>
-						</div>
-					</li>
-					<li class="box4">
-						<div class="box">
-							<div class="time">(Apr 23 - Jun 23)</div>
-							<div class="q">Q2</div>
-							<ul>
-								<!--<li>OPTICASH listing on Kucoin, Binance etc : Presale Phase 1 Launch / IEO</li>-->
-								<li>Marketing activities phase 2</li>
-								<li>Influencers partnership </li>
-								<!--<li>Presale phase 2</li> -->
-								<li>Market prototype </li>
-								<li>Beta testing</li>
-								<li>Community Development </li>
-								<li>Marketing active phase 3</li>
-								<!--<li>Presale finish</li> -->
-								<li>Airdrop </li>
-								<li>OPTICASH Listing coin market cap, Coingecko</li>
-							</ul>
-						</div>
-					</li>
-					<li class="box5">
-						<div class="box">
-							<div class="time">(Jul 23 - Sep 23)</div>
-							<div class="q">Q3</div>
-							<ul>
-								<li>Network events</li>
-								<li>Stage 2 Prototype testing</li>
-								<li>Mobile App IOS / Android application </li>
-								<li>Platform staking</li>
-								<li>OPTICASH exchange/ payment platform Launch </li>
-								<li>Widget components </li>
-								<li>Platform messenger </li>
-								<li>Integrate Platform with exchanges </li>
-								<li>OPTICASH visa/ Mastercard</li>
-							</ul>
-						</div>
-					</li>
-					<li class="box6">
-						<div class="box">
-							<div class="time">(Oct 23 - Dec 23)</div>
-							<div class="q">Q4</div>
-							<ul>
-								<li>Platform development </li>
-								<li>New Associations</li>
-								<li>Community expansion </li>
-								<li>Marketing stage 4</li>
-								<li>Charity/ organization foundation - Philanthropist</li>
-							</ul>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
+	
 	<div class="opti-contract page-section">
 		<div class="container">
 			<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
@@ -889,8 +788,6 @@ gtag('config', 'G-G1CM0C3M9X');
       </div>
     </div>
   </div>
-  
-
 <!---END: Footer-->
 
 </div>
@@ -1081,16 +978,16 @@ gtag('config', 'G-G1CM0C3M9X');
 	var chart, width, height, fontSize, innerRadius;
 	var isChartLoaded = false;
 
-	if(window.location.href.includes('#')){
-		document.getElementById('site-content').classList.remove('show-loader');
-		document.getElementsByClassName('site-loader')[0].style.display = 'none';
-	} else {
-		document.getElementById('site-content').classList.add('show-loader');
-		document.getElementsByClassName('site-loader')[0].style.display = 'flex';
-		setTimeout(() => {
-			promocionalDialog.show();
-		}, 8000);
-	}
+	// if(window.location.href.includes('#')){
+	// 	document.getElementById('site-content').classList.remove('show-loader');
+	// 	document.getElementsByClassName('site-loader')[0].style.display = 'none';
+	// } else {
+	// 	document.getElementById('site-content').classList.add('show-loader');
+	// 	document.getElementsByClassName('site-loader')[0].style.display = 'flex';
+	// 	setTimeout(() => {
+	// 		promocionalDialog.show();
+	// 	}, 8000);
+	// }
 
 	$(function() {
 		if(!$('.goog-te-combo').val()){

@@ -1252,6 +1252,24 @@ html:lang(ru) #header .btn {
     padding: 3rem 3rem
 }
 
+@media (max-width: 768px) {
+    .join-community .box::after {
+        background: none;
+    }
+    .join-community .box .inner-box {
+        background: none;
+    }
+
+    .join-community .box::before {
+        background: none;
+    }
+    .join-community .box {
+        background: none;
+    }
+
+    
+}
+
 .join-community h2 {
     font-size: 1.875rem;
     margin-bottom: 1.5rem
@@ -2650,17 +2668,17 @@ html:lang(ru) #header .btn {
     }
 
     .join-community .box::before {
-        background-image: url(../images/border-left2.png);
+        /* background-image: url(../images/border-left2.png); */
         background-size: 100% 100%
     }
 
     .join-community .box::after {
-        background-image: url(../images/border-right2.png);
+        /* background-image: url(../images/border-right2.png); */
         background-size: 100% 100%
     }
 
     .join-community .box .inner-box {
-        background-image: url(../images/border-tb2.png);
+        /* background-image: url(../images/border-tb2.png); */
         background-size: 100% 100%;
         padding: 4rem 0
     }
