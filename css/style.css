@@ -1638,7 +1638,7 @@ html:lang(ru) #header .btn {
     background: url(../images/bg8.jpg) top center no-repeat;
     background-size: cover;
     padding-bottom: 7rem;
-    padding-top: 15rem;
+    padding-top: 7rem;
     position: relative
 }
 
@@ -1816,7 +1816,9 @@ html:lang(ru) #header .btn {
 
 .value-section {
     background-color: #1a1a1a;
-    padding: 4rem 0
+    padding: 4rem 0;
+    overflow: hidden;
+    position: relative;
 }
 
 .value-section h2 {
@@ -1834,7 +1836,7 @@ html:lang(ru) #header .btn {
 }
 
 .value-section .image {
-    margin-top: -9rem
+    margin-top: -1rem;
 }
 
 .value-section .btn {
@@ -2175,7 +2177,7 @@ html:lang(ru) #header .btn {
     }
 
     .about-hero {
-        padding-top: 100px;
+        padding-top: 40px;
         padding-bottom: 4rem
     }
 
@@ -2794,7 +2796,7 @@ html:lang(ru) #header .btn {
     }
 
     .about-hero {
-        padding: 12rem 0 7rem;
+        padding: 4rem 0 7rem;
         background-image: url(../images/bg10.jpg)
     }
 
