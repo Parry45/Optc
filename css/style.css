@@ -1708,10 +1708,9 @@ html:lang(ru) #header .btn {
     background-size: cover
 }
 
-.about-section1 .box{
+/* .about-section1 .box{
     border-radius: 16px; 
-    /* height: 200px; */
-}
+} */
 
 
 
@@ -1811,7 +1810,7 @@ html:lang(ru) #header .btn {
     height: 100%;
     background-color: #1f1f1f;
     z-index: 0;
-    border-radius: 27px;
+    /* border-radius: 27px; */
 }
 
 .about-section .box>.row {
