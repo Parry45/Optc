@@ -1004,6 +1004,27 @@
   text-transform: uppercase;
 }
 
+.text-field-2 {
+  height: 60px;
+  background-color: #282828;
+  border: 0 #000;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-family: Be Vietnam Pro, sans-serif;
+}
+
+.signup-block {
+  border: 1px #a6a6a6;
+  border-radius: 8px;
+  transition: all .25s;
+}
+.wbs-app-button-copy {
+  height: 60px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .cta8_heading-wrapper {
   z-index: 1;
   width: 100%;
