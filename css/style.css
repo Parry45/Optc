@@ -1842,7 +1842,7 @@ html:lang(ru) #header .btn {
 .value-section {
     background-color: #1a1a1a;
     padding: 4rem 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 }
 
@@ -1862,6 +1862,12 @@ html:lang(ru) #header .btn {
 
 .value-section .image {
     margin-top: 0rem;
+    position:absolute;
+    width: 500px;
+    bottom: 250px;
+    top: -1px;
+    right: 50px;
+
 }
 
 .value-section .btn {
