@@ -1861,7 +1861,7 @@ html:lang(ru) #header .btn {
 }
 
 .value-section .image {
-    margin-top: -1rem;
+    margin-top: 0rem;
 }
 
 .value-section .btn {
