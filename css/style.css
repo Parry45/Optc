@@ -2048,7 +2048,7 @@ html:lang(ru) #header .btn {
 
 .static-content {
     padding-bottom: 7rem;
-    padding-top: 15rem;
+    padding-top: 7rem;
     color: #fff;
     background: #0e0e0e url(../images/bg11.jpg) top center no-repeat;
     background-size: 100% auto;
@@ -2069,7 +2069,7 @@ html:lang(ru) #header .btn {
 
 .static-content p,
 .static-content li {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 1.8em
 }
 
@@ -3123,7 +3123,7 @@ html:lang(ru) #header .btn {
     }
 
     .static-content {
-        padding-top: 10rem;
+        padding-top: 3rem;
         padding-bottom: 3rem
     }
 
